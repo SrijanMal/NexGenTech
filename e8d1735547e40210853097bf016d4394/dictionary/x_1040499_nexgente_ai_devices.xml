@@ -4,8 +4,11 @@
             <choice>
                 <element inactive_on_update="false" label="Safety Drone" sequence="0" value="safety drone"/>
                 <element inactive_on_update="false" label="AR Glasses" sequence="1" value="ar glasses"/>
-                <element inactive_on_update="false" label="Smart Hats" sequence="2" value="smart hats"/>
+                <element inactive_on_update="false" label="Smart Watch" sequence="2" value="smart hats"/>
                 <element inactive_on_update="false" label="Enviromental Sensor" sequence="3" value="enviromental sensor"/>
+                <element inactive_on_update="false" label="Security Camera" sequence="4" value="security camera"/>
+                <element inactive_on_update="false" label="Smart Lighting" sequence="5" value="smart lighting"/>
+                <element inactive_on_update="false" label="Robot Vacuum Cleaner" sequence="6" value="robot vacuum cleaner"/>
             </choice>
         </element>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_2" type="price"/>
