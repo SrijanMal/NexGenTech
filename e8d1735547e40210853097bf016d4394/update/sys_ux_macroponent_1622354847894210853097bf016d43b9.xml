@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <bundles/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[
+    {
+        "definition": {
+            "id": "f4d3254a798ef092d9023d408f257789",
+            "type": "MACROPONENT"
+        },
+        "elementId": "display_only_form_1",
+        "elementLabel": "Display only form 1",
+        "eventMappings": [
+            
+        ],
+        "isHidden": {
+            "type": "JSON_LITERAL",
+            "value": null
+        },
+        "preset": null,
+        "propertyValues": {
+            "bare": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "inPopover": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "inUiBuilder": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "isShowLoader": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "readOnlyForm": {
+                "type": "JSON_LITERAL",
+                "value": true
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "sysID"
+                    ],
+                    "category": "props"
+                },
+                "type": "CONTEXT_BINDING"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1040499_nexgente_device_request"
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "workspaceConfigId": {
+                "type": "JSON_LITERAL",
+                "value": "7b24ceae5304130084acddeeff7b12a3"
+            }
+        },
+        "slot": null,
+        "styles": null
+    }
+]</composition>
+        <da_relay_models/>
+        <data>[
+    {
+        "definition": {
+            "id": "dc6e87a5232200100e4bc50947bf654b",
+            "type": "CLIENT_STATE"
+        },
+        "dependencies": {},
+        "elementId": "glide_form_1",
+        "elementLabel": "Glide Form 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "actionConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "actionLayoutId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "detailsContext": null,
+            "forcedViewName": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "formParams": {
+                "type": "JSON_LITERAL",
+                "value": "{}"
+            },
+            "headerConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "highlightedValueConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "oneExtendConfig": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "query": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "ribbonConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "shouldDisplayFormErrorsAsPageAlerts": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "shouldSuppressGlobalEvents": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "showActivityStreamInDetails": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "sysId": {
+                "binding": {
+                    "address": [
+                        "look_up_multiple_records_1",
+                        "results",
+                        "0",
+                        "sys_id",
+                        "displayValue"
+                    ]
+                },
+                "type": "DATA_OUTPUT_BINDING"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1040499_nexgente_device_request"
+            },
+            "view": {
+                "type": "JSON_LITERAL",
+                "value": "Default view"
+            },
+            "viewRuleConfigId": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    },
+    {
+        "definition": {
+            "id": "b997a84053021010cbc2ddeeff7b1228",
+            "type": "COMPOSITE"
+        },
+        "dependencies": {},
+        "elementId": "look_up_multiple_records_1",
+        "elementLabel": "Look up multiple records 1",
+        "eventMappings": [
+            
+        ],
+        "inputValues": {
+            "encodedQuery": {
+                "transform": {
+                    "operands": {
+                        "container": [
+                            {
+                                "type": "JSON_LITERAL",
+                                "value": "sys_id="
+                            },
+                            {
+                                "binding": {
+                                    "address": [
+                                        "sysID"
+                                    ],
+                                    "category": "props"
+                                },
+                                "type": "CONTEXT_BINDING"
+                            }
+                        ],
+                        "type": "LIST_CONTAINER"
+                    },
+                    "operator": "CONCAT"
+                },
+                "type": "CLIENT_TRANSFORM"
+            },
+            "limit": {
+                "type": "JSON_LITERAL",
+                "value": "1000"
+            },
+            "offset": {
+                "type": "JSON_LITERAL",
+                "value": null
+            },
+            "orderBy": {
+                "type": "JSON_LITERAL"
+            },
+            "queryCategory": {
+                "type": "JSON_LITERAL",
+                "value": ""
+            },
+            "returnFieldMetadata": {
+                "type": "JSON_LITERAL",
+                "value": false
+            },
+            "returnFields": {
+                "type": "JSON_LITERAL",
+                "value": "sys_id"
+            },
+            "sortType": {
+                "type": "JSON_LITERAL",
+                "value": "asc"
+            },
+            "table": {
+                "type": "JSON_LITERAL",
+                "value": "x_1040499_nexgente_device_request"
+            }
+        },
+        "readEvaluationMode": "EAGER"
+    }
+]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{}</internal_event_mappings>
+        <layout>{
+    "default": {
+        "children": null,
+        "items": [
+            {
+                "element_id": "display_only_form_1",
+                "styles": {}
+            }
+        ],
+        "root": null,
+        "rules": null,
+        "styles": {
+            "flex-direction": "column"
+        },
+        "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
+        "type": "flex"
+    },
+    "version": "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Default</name>
+        <output_prop_mapping/>
+        <props>[
+    {
+        "description": "",
+        "fieldType": "string",
+        "id": "cltsjjddccoxaaaaddhhddffhhrulehvvqa",
+        "inherited": false,
+        "label": "sysID",
+        "mandatory": false,
+        "name": "sysID",
+        "readOnly": false,
+        "selectable": false,
+        "typeMetadata": null,
+        "valueType": "string"
+    }
+]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-15 05:49:14</sys_created_on>
+        <sys_id>1622354847894210853097bf016d43b9</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Default</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_ux_macroponent_1622354847894210853097bf016d43b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-15 06:08:25</sys_updated_on>
+    </sys_ux_macroponent>
+    <sys_translated_text action="delete_multiple" query="documentkey=1622354847894210853097bf016d43b9"/>
+</record_update>
