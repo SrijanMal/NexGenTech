@@ -65,21 +65,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-15 15:56:12</sys_created_on>
         <sys_id>492cff0847458210853097bf016d4357</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Order AI Devices</sys_name>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sc_cat_item_492cff0847458210853097bf016d4357</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-03-19 07:32:43</sys_updated_on>
+        <sys_updated_on>2024-03-26 17:02:02</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>6</version>
+        <version>15</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
