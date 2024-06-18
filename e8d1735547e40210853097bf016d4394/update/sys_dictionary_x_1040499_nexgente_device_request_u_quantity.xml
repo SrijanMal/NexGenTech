@@ -5,7 +5,7 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Quantity</column_label>
@@ -27,8 +27,8 @@
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <internal_type display_value="Integer">integer</internal_type>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_1040499_nexgente_device_request</name>
         <next_element/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sys_dictionary_x_1040499_nexgente_device_request_u_quantity</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-18 06:09:08</sys_updated_on>
+        <sys_updated_on>2024-06-18 06:39:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
