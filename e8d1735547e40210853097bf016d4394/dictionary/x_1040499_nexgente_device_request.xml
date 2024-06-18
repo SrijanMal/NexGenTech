@@ -1,3 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="43c233d547e40210853097bf016d43a3" extends="task" label="Device Request" max_length="40" name="x_1040499_nexgente_device_request" type="collection"/>
+    <element db_object_id="43c233d547e40210853097bf016d43a3" extends="task" label="Device Request" max_length="40" name="x_1040499_nexgente_device_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="u_device_name" reference="x_1040499_nexgente_ai_devices" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" max_length="40" name="u_quantity" type="string"/>
+        <element attributes="encode_utf8=false" label="Requestor Name" mandatory="true" max_length="32" name="u_requestor_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
+                <element inactive_on_update="false" label="Canceled" sequence="1" value="canceled"/>
+            </choice>
+        </element>
+    </element>
 </database>
