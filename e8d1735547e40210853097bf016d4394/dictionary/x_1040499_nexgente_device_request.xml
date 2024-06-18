@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="43c233d547e40210853097bf016d43a3" extends="task" label="Device Request" max_length="40" name="x_1040499_nexgente_device_request" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Delivery Date" max_length="40" name="u_delivery_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Device Description" max_length="40" name="u_device_description" read_only="true" type="string"/>
         <element attributes="encode_utf8=false" label="Device Name" mandatory="true" max_length="32" name="u_device_name" reference="x_1040499_nexgente_ai_devices" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" read_only="true" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price_1" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Quantity" max_length="40" name="u_quantity" type="string"/>
         <element attributes="encode_utf8=false" label="Requestor Name" mandatory="true" max_length="32" name="u_requestor_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
@@ -10,5 +13,6 @@
                 <element inactive_on_update="false" label="Canceled" sequence="1" value="canceled"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Warrenty Expiration" max_length="40" name="u_warrenty_expiration" read_only="true" type="glide_date"/>
     </element>
 </database>
