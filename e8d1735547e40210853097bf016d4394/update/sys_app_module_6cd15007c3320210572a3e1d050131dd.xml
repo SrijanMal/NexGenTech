@@ -4,7 +4,8 @@
         <application display_value="NexGenTech">62e2ff9147200210853097bf016d431f</application>
         <assessment/>
         <device_type/>
-        <filter/>
+        <filter table="x_1040499_nexgente_ai_devices">null<item endquery="false" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
         <hint/>
         <homepage/>
         <image/>
@@ -13,7 +14,7 @@
         <mobile_title>Upload New Device</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_1040499_nexgente_ai_devices</name>
-        <order>5</order>
+        <order>3</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
@@ -24,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6cd15007c3320210572a3e1d050131dd</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Upload New Device</sys_name>
         <sys_overrides/>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
@@ -32,7 +33,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sys_app_module_6cd15007c3320210572a3e1d050131dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-19 06:30:06</sys_updated_on>
+        <sys_updated_on>2024-06-19 06:31:55</sys_updated_on>
         <timeline_page/>
         <title>Upload New Device</title>
         <uncancelable>false</uncancelable>

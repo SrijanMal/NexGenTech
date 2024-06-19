@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NexGenTech">62e2ff9147200210853097bf016d431f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Device Request</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 15:52:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aae237d547e40210853097bf016d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_app_module_aae237d547e40210853097bf016d4357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 15:52:48</sys_updated_on>
+        <timeline_page/>
+        <title>Device Request</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NexGenTech">e8d1735547e40210853097bf016d4394</application>
+        <file_path/>
+        <instance_id>f52553041b010e1cc82acb7b234bcbdc</instance_id>
+        <instance_name>dev243659</instance_name>
+        <name>sys_app_module_aae237d547e40210853097bf016d4357</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="NexGenTech">62e2ff9147200210853097bf016d431f</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Device Request</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-23 15:52:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aae237d547e40210853097bf016d4357</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_app_module_aae237d547e40210853097bf016d4357</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-23 15:52:48</sys_updated_on>
+        <timeline_page/>
+        <title>Device Request</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1442078587</payload_hash>
+        <record_name>Device Request</record_name>
+        <reverted_from/>
+        <source>3f64140bc3320210572a3e1d050131de</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 06:31:26</sys_created_on>
+        <sys_id>a474540bc3320210572a3e1d050131fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1902f316e020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-19 06:31:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a074540b99320210d2aad4d28686d0fc</update_guid>
+        <update_guid_history>a074540b99320210d2aad4d28686d0fc:0,66b2108725320210d3e8f0dd45520bb7:1069596080,c1296a01aab6021022ba747e077d147c:1442078587</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Device Request">4be41c0bc3320210572a3e1d0501317b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-19 06:33:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>17417057400140209cc5b78a304dd440</sys_id>
+        <sys_metadata>aae237d547e40210853097bf016d4357</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Request</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_scope_delete display_value="">4ce85ab8e97444128be26bc92bfef481</sys_scope_delete>
+        <sys_update_name>sys_app_module_aae237d547e40210853097bf016d4357</sys_update_name>
+        <sys_update_version display_value="sys_app_module_aae237d547e40210853097bf016d4357">a474540bc3320210572a3e1d050131fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-19 06:33:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
