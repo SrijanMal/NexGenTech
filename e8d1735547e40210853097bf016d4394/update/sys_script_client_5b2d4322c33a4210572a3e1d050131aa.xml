@@ -11,12 +11,21 @@
         <name>Hide the section</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-   if(g_form.getValue('u_device_name')==' '){
-   g_form.setSectionDisplay('device_details',false);
-   g_form.setSectionDisplay('delivery_details',false);
-   }
-   
+    //Type appropriate comment here, and begin script below
+    if (g_form.getValue('u_device_name') == ' ') {
+        g_form.setSectionDisplay('device_details', false);
+        g_form.setSectionDisplay('delivery_details', false);
+    } else {
+        g_form.getReference('u_device_name', getDetails);
+
+    }
+
+    function getDetails(details) {
+        g_form.setValue('u_model', details.model_number);
+        g_form.setValue('u_device_description', details.short_description);
+        g_form.setValue('u_price_1', details.u_price_2);
+        g_form.setValue('u_warrenty_expiration', details.warranty_expiration);
+    }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -24,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b2d4322c33a4210572a3e1d050131aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Hide the section</sys_name>
         <sys_overrides/>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
@@ -32,7 +41,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sys_script_client_5b2d4322c33a4210572a3e1d050131aa</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-18 07:32:16</sys_updated_on>
+        <sys_updated_on>2024-06-23 04:29:22</sys_updated_on>
         <table>x_1040499_nexgente_device_request</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

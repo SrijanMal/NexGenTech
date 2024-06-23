@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="c061ead1c3320210572a3e1d050131a4" extends="cmdb_ci" label="AI Devices" max_length="40" name="x_1040499_nexgente_ai_devices" type="collection">
-        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_2" type="price"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Device Category" max_length="40" name="u_device_category" type="string">
             <choice>
+                <element inactive="true" inactive_on_update="true" label="AR Glasses" sequence="0" value="ar glasses"/>
                 <element inactive_on_update="false" label="Safety Drone" sequence="0" value="safety drone"/>
-                <element inactive_on_update="false" label="AR Glasses" sequence="1" value="ar glasses"/>
-                <element inactive_on_update="false" label="Smart Hats" sequence="2" value="smart hats"/>
-                <element inactive_on_update="false" label="Enviromental Sensor" sequence="3" value="enviromental sensor"/>
+                <element inactive="true" inactive_on_update="true" label="Smart Clock" sequence="0" value="smart clock"/>
+                <element inactive="true" inactive_on_update="true" label="Smart Hats" sequence="1" value="smart hats"/>
+                <element inactive_on_update="false" label="Smart Speaker" sequence="1" value="Smart Speaker"/>
+                <element inactive="true" inactive_on_update="true" label="Enviromental Sensor" sequence="2" value="enviromental sensor"/>
+                <element inactive_on_update="false" label="Thermostat" sequence="2" value="thermostat"/>
+                <element inactive_on_update="false" label="AI-enhanced Virtual Assistant" sequence="3" value="ai-enhanced virtual assistant"/>
+                <element inactive_on_update="false" label="AI-powered Language Translator" sequence="4" value="ai-powered language translator"/>
+                <element inactive_on_update="false" label="AI-powered Security Camera" sequence="5" value="ai-powered security camera"/>
+                <element inactive_on_update="false" label="Robot Vacuum" sequence="6" value="robot vacuum"/>
             </choice>
         </element>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_2" type="price"/>
     </element>
 </database>

@@ -13,6 +13,7 @@
                 <element inactive_on_update="false" label="Canceled" sequence="1" value="canceled"/>
             </choice>
         </element>
+        <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_total_cost" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Warrenty Expiration" max_length="40" name="u_warrenty_expiration" read_only="true" type="glide_date"/>
     </element>
 </database>

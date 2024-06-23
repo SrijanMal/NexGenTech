@@ -19,6 +19,25 @@
             <dependent_value/>
             <element>u_device_category</element>
             <hint/>
+            <inactive>true</inactive>
+            <label>AR Glasses</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-14 06:29:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:32:42</sys_updated_on>
+            <value>ar glasses</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
             <inactive>false</inactive>
             <label>Safety Drone</label>
             <language>en</language>
@@ -38,8 +57,27 @@
             <dependent_value/>
             <element>u_device_category</element>
             <hint/>
-            <inactive>false</inactive>
-            <label>AR Glasses</label>
+            <inactive>true</inactive>
+            <label>Smart Clock</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:44:35</sys_updated_on>
+            <value>smart clock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Smart Hats</label>
             <language>en</language>
             <name>x_1040499_nexgente_ai_devices</name>
             <sequence>1</sequence>
@@ -48,28 +86,9 @@
             <sys_created_on>2024-06-14 06:29:20</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:29:20</sys_updated_on>
-            <value>ar glasses</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_device_category</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Smart Hats</label>
-            <language>en</language>
-            <name>x_1040499_nexgente_ai_devices</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:29:20</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:29:20</sys_updated_on>
+            <sys_updated_on>2024-06-23 03:32:42</sys_updated_on>
             <value>smart hats</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -77,19 +96,133 @@
             <element>u_device_category</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Smart Speaker</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:32:42</sys_updated_on>
+            <value>Smart Speaker</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>true</inactive>
             <label>Enviromental Sensor</label>
             <language>en</language>
             <name>x_1040499_nexgente_ai_devices</name>
-            <sequence>3</sequence>
+            <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-06-14 06:29:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:32:42</sys_updated_on>
+            <value>enviromental sensor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thermostat</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:29:21</sys_updated_on>
-            <value>enviromental sensor</value>
+            <sys_updated_on>2024-06-23 03:32:42</sys_updated_on>
+            <value>thermostat</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AI-enhanced Virtual Assistant</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:44:35</sys_updated_on>
+            <value>ai-enhanced virtual assistant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AI-powered Language Translator</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:44:35</sys_updated_on>
+            <value>ai-powered language translator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AI-powered Security Camera</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:44:35</sys_updated_on>
+            <value>ai-powered security camera</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_device_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Robot Vacuum</label>
+            <language>en</language>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-06-23 03:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-06-23 03:44:35</sys_updated_on>
+            <value>robot vacuum</value>
         </sys_choice>
     </sys_choice>
 </record_update>
