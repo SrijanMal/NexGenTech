@@ -6,11 +6,14 @@
         <element attributes="edge_encryption_enabled=true" label="Model" max_length="40" name="u_model" read_only="true" type="string"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Price" max_length="20" name="u_price_1" read_only="true" type="price"/>
         <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="40" name="u_quantity" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Reminder for pickup" max_length="40" name="u_reminder_for_pickup" type="glide_date_time"/>
         <element attributes="encode_utf8=false" label="Requestor Name" mandatory="true" max_length="32" name="u_requestor_name" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="u_state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Delivered" sequence="0" value="delivered"/>
                 <element inactive_on_update="false" label="Canceled" sequence="1" value="canceled"/>
+                <element inactive_on_update="false" label="Delivery Failed" sequence="2" value="delivery failed"/>
+                <element inactive_on_update="false" label="In-Progress" sequence="3" value="in-progress"/>
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Total Cost" max_length="20" name="u_total_cost" read_only="true" type="currency"/>
