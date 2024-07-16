@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="afbfd13b93d74610be6d385efaba1039" extends="sys_import_set_row" label="AI Device Data" max_length="40" name="x_1040499_nexgente_ai_device_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="134" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device Category" label="Device Category" max_length="40" name="u_device_category" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Manufacturer" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model number" label="Model number" max_length="40" name="u_model_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="41" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=New Price" label="New Price" max_length="15" name="u_new_price" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Owned by" label="Owned by" max_length="40" name="u_owned_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Updated" label="Updated" max_length="40" name="u_updated" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Warranty expiration" label="Warranty expiration" max_length="40" name="u_warranty_expiration" type="glide_date"/>
+    </element>
+</database>
