@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the following values on the form:
+Requestor Name = {{Step 1: Create a User.User}}
+and Quantity = 3
+and Device Name = Sony Aibo ERS-1000
+and State = In-Progress
+and Description = Demo testing for ATF</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 05:54:25</sys_created_on>
+        <sys_id>111850c493e78610be6d385efaba1049</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_atf_step_111850c493e78610be6d385efaba1049</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:16:14</sys_updated_on>
+        <table>x_1040499_nexgente_device_request</table>
+        <test display_value="Device Request for ATF">5155588093e78610be6d385efaba10c8</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=111850c493e78610be6d385efaba1049"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>111850c493e78610be6d385efaba1049</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 05:54:25</sys_created_on>
+        <sys_id>4b7854c493e78610be6d385efaba10d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:02:11</sys_updated_on>
+        <value>u_requestor_name={{step['d785d08093e78610be6d385efaba1098'].user}}^u_quantity=3^u_device_name=0b7e11b793d74610be6d385efaba10d3^u_state=in-progress^description=Demo testing for ATF^EQ</value>
+        <variable display_value="Field values">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>111850c493e78610be6d385efaba1049</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 05:54:25</sys_created_on>
+        <sys_id>877854c493e78610be6d385efaba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 05:54:25</sys_updated_on>
+        <value>x_1040499_nexgente_device_request</value>
+        <variable display_value="Table">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>111850c493e78610be6d385efaba1049</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 05:54:25</sys_created_on>
+        <sys_id>c37854c493e78610be6d385efaba10d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 05:54:25</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=111850c493e78610be6d385efaba1049"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>111850c493e78610be6d385efaba1049</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 05:54:25</sys_created_on>
+        <sys_id>437854c493e78610be6d385efaba10d4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:02:11</sys_updated_on>
+        <table>var__m_atf_input_variable_fcae4a935332120028bc29cac2dc340e</table>
+        <value>u_requestor_name={{step['d785d08093e78610be6d385efaba1098'].user}}^u_quantity=3^u_device_name=0b7e11b793d74610be6d385efaba10d3^u_state=in-progress^description=Demo testing for ATF^EQ</value>
+    </sys_element_mapping>
+</record_update>

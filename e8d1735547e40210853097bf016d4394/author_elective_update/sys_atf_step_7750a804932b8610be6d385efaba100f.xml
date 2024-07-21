@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following variables are not visible: Total Amount
+Confirm that the following variables are not read only: Total Amount
+</description>
+        <display_name>Variable State Validation</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Variable State Validation">33f637e8c3ba220076173b0ac3d3aee1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:16</sys_created_on>
+        <sys_id>7750a804932b8610be6d385efaba100f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable State Validation</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_atf_step_7750a804932b8610be6d385efaba100f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:16</sys_updated_on>
+        <table/>
+        <test display_value="Order AI Device using ATF">d28d1ccc93e78610be6d385efaba1029</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=7750a804932b8610be6d385efaba100f"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>39706044932b8610be6d385efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value>bf912cc7c3720210572a3e1d05013178</value>
+        <variable display_value="Catalog item">ae58fbe8c3ba220076173b0ac3d3aeac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>3d706044932b8610be6d385efaba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value/>
+        <variable display_value="Visible">a7987fe8c3ba220076173b0ac3d3ae1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>75706044932b8610be6d385efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value/>
+        <variable display_value="Not mandatory">ab59772cc3ba220076173b0ac3d3ae9c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>b1706044932b8610be6d385efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value>adf92d5bc3320210572a3e1d0501315e</value>
+        <variable display_value="Not visible">32e8ffe8c3ba220076173b0ac3d3ae6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>bd706044932b8610be6d385efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value/>
+        <variable display_value="Mandatory">5149372cc3ba220076173b0ac3d3ae98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>f9706044932b8610be6d385efaba10ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value>adf92d5bc3320210572a3e1d0501315e</value>
+        <variable display_value="Not read only">e439f32cc3ba220076173b0ac3d3ae90</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>7750a804932b8610be6d385efaba100f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>fd706044932b8610be6d385efaba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <value/>
+        <variable display_value="Read only">d829b32cc3ba220076173b0ac3d3aea1</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NexGenTech">e8d1735547e40210853097bf016d4394</application>
+        <file_path/>
+        <instance_id>4ffbec40db4ab514199b1729139619aa</instance_id>
+        <instance_name>dev188595</instance_name>
+        <name>sys_atf_step_7750a804932b8610be6d385efaba100f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that the following variables are not visible: Total Amount
+Confirm that the following variables are not read only: Total Amount
+</description><display_name>Variable State Validation</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Variable State Validation">33f637e8c3ba220076173b0ac3d3aee1</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:16</sys_created_on><sys_id>7750a804932b8610be6d385efaba100f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Variable State Validation</sys_name><sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package><sys_policy/><sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope><sys_update_name>sys_atf_step_7750a804932b8610be6d385efaba100f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:16</sys_updated_on><table/><test display_value="Order AI Device using ATF">d28d1ccc93e78610be6d385efaba1029</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7750a804932b8610be6d385efaba100f"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>39706044932b8610be6d385efaba10ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value>bf912cc7c3720210572a3e1d05013178</value><variable display_value="Catalog item">ae58fbe8c3ba220076173b0ac3d3aeac</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>3d706044932b8610be6d385efaba10ed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value/><variable display_value="Visible">a7987fe8c3ba220076173b0ac3d3ae1d</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>700</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>75706044932b8610be6d385efaba10ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value/><variable display_value="Not mandatory">ab59772cc3ba220076173b0ac3d3ae9c</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>b1706044932b8610be6d385efaba10ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value>adf92d5bc3320210572a3e1d0501315e</value><variable display_value="Not visible">32e8ffe8c3ba220076173b0ac3d3ae6e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>600</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>bd706044932b8610be6d385efaba10ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value/><variable display_value="Mandatory">5149372cc3ba220076173b0ac3d3ae98</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>500</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>f9706044932b8610be6d385efaba10ee</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value>adf92d5bc3320210572a3e1d0501315e</value><variable display_value="Not read only">e439f32cc3ba220076173b0ac3d3ae90</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7750a804932b8610be6d385efaba100f</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-17 06:29:17</sys_created_on><sys_id>fd706044932b8610be6d385efaba10ed</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-17 06:29:17</sys_updated_on><value/><variable display_value="Read only">d829b32cc3ba220076173b0ac3d3aea1</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-220582786</payload_hash>
+        <record_name>Variable State Validation</record_name>
+        <reverted_from/>
+        <source>f2514ef393c70210be6d385efaba1026</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:17</sys_created_on>
+        <sys_id>b1706044932b8610be6d385efaba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190bf61838c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:17</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>b57060448c2b8610b5b715eaefcc5ffd</update_guid>
+        <update_guid_history>b57060448c2b8610b5b715eaefcc5ffd:-220582786</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:29:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>72797e4ad9f34228a71f43cb89226ba4</sys_id>
+        <sys_metadata>7750a804932b8610be6d385efaba100f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Variable State Validation</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_scope_delete display_value="">4ce85ab8e97444128be26bc92bfef481</sys_scope_delete>
+        <sys_update_name>sys_atf_step_7750a804932b8610be6d385efaba100f</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_7750a804932b8610be6d385efaba100f">b1706044932b8610be6d385efaba10fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:29:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

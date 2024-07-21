@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+Choose your AI Device = SD Power Drone
+and Choose Quantity = 3
+and Business Justification = For ATF testing
+and Delivery Address = Candor, Kolkata
+and Total Amount = 750.00</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:20:51</sys_created_on>
+        <sys_id>3bfdd400932b8610be6d385efaba10a6</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_atf_step_3bfdd400932b8610be6d385efaba10a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 09:42:07</sys_updated_on>
+        <table/>
+        <test display_value="Order AI Device using ATF">d28d1ccc93e78610be6d385efaba1029</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3bfdd400932b8610be6d385efaba10a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3bfdd400932b8610be6d385efaba10a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:20:51</sys_created_on>
+        <sys_id>928e9840932b8610be6d385efaba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 06:20:51</sys_updated_on>
+        <value>bf912cc7c3720210572a3e1d05013178</value>
+        <variable display_value="Item">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3bfdd400932b8610be6d385efaba10a6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-17 06:20:51</sys_created_on>
+        <sys_id>de8e9840932b8610be6d385efaba10fe</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-17 09:42:07</sys_updated_on>
+        <value>IO:9913e84bc3720210572a3e1d050131d6=f442653f93d74610be6d385efaba10e4^IO:5843ec4bc3720210572a3e1d05013195=3^IO:2563a08bc3720210572a3e1d0501319a=For ATF testing^IO:58a3e48bc3720210572a3e1d0501314c=Candor, Kolkata^IO:adf92d5bc3320210572a3e1d0501315e=750.00^EQ</value>
+        <variable display_value="Variable Values">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_323ca6e1c3b2220076173b0ac3d3aec1^id=3bfdd400932b8610be6d385efaba10a6"/>
+</record_update>
