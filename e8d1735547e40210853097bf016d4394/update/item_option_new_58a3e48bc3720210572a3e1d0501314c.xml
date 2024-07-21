@@ -42,7 +42,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>delivery_address</name>
-        <order>600</order>
+        <order>700</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -77,14 +77,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-19 07:38:27</sys_created_on>
         <sys_id>58a3e48bc3720210572a3e1d0501314c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Delivery Address</sys_name>
-        <sys_package/>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>item_option_new_58a3e48bc3720210572a3e1d0501314c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-19 07:39:30</sys_updated_on>
+        <sys_updated_on>2024-07-17 09:39:40</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
