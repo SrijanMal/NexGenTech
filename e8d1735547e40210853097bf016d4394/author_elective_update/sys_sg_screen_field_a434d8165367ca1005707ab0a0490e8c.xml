@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>u_price_1</data_item_field_name>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>500</order>
+        <record_id_field/>
+        <screen display_value="Details">7d8010de5327ca1005707ab0a0490eab</screen>
+        <screen_data_item_table>x_1040499_nexgente_device_request</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 05:22:01</sys_created_on>
+        <sys_id>a434d8165367ca1005707ab0a0490e8c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_price_1</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_sg_screen_field_a434d8165367ca1005707ab0a0490e8c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 05:22:01</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NexGenTech">e8d1735547e40210853097bf016d4394</application>
+        <file_path/>
+        <instance_id>4ffbec40db4ab514199b1729139619aa</instance_id>
+        <instance_name>dev188595</instance_name>
+        <name>sys_sg_screen_field_a434d8165367ca1005707ab0a0490e8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>u_price_1</data_item_field_name><field_name/><hidden>false</hidden><order>500</order><record_id_field/><screen display_value="Details">7d8010de5327ca1005707ab0a0490eab</screen><screen_data_item_table>x_1040499_nexgente_device_request</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-24 05:22:01</sys_created_on><sys_id>a434d8165367ca1005707ab0a0490e8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_price_1</sys_name><sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package><sys_policy/><sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope><sys_update_name>sys_sg_screen_field_a434d8165367ca1005707ab0a0490e8c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-24 05:22:01</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field></record_update>]]></payload>
+        <payload_hash>-1184564257</payload_hash>
+        <record_name>u_price_1</record_name>
+        <reverted_from/>
+        <source>f2514ef393c70210be6d385efaba1026</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 05:22:01</sys_created_on>
+        <sys_id>ac34d8165367ca1005707ab0a0490e9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190e33071980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 05:22:01</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>a034d816dd67ca1065cddb09c8c7519a</update_guid>
+        <update_guid_history>a034d816dd67ca1065cddb09c8c7519a:-1184564257</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 05:50:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>5be05a3857f4460bb22c5d6b42f44191</sys_id>
+        <sys_metadata>a434d8165367ca1005707ab0a0490e8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_price_1</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_scope_delete display_value="">4ce85ab8e97444128be26bc92bfef481</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_a434d8165367ca1005707ab0a0490e8c</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_a434d8165367ca1005707ab0a0490e8c">ac34d8165367ca1005707ab0a0490e9a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 05:50:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

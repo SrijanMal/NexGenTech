@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description>Order Ai devices for company</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Device Request</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition table="x_1040499_nexgente_device_request">active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 05:05:47</sys_created_on>
+        <sys_id>b2701c9e5327ca1005707ab0a0490e8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Request</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_sg_data_item_b2701c9e5327ca1005707ab0a0490e8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 05:05:47</sys_updated_on>
+        <table>x_1040499_nexgente_device_request</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=b2701c9e5327ca1005707ab0a0490e8d"/>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon/>
+        <name>Order AI Device Record Screen Icon</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-24 05:05:59</sys_created_on>
+        <sys_id>a98010de5327ca1005707ab0a0490ea5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order AI Device Record Screen Icon</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_sg_icon_a98010de5327ca1005707ab0a0490ea5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-24 05:05:59</sys_updated_on>
+        <type>font</type>
+    </sys_sg_icon>
+</record_update>
