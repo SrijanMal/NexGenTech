@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2777359000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2777798000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d00550dcc3074210572a3e1d05013116</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Order AI Devices Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sys_hub_flow_d00550dcc3074210572a3e1d05013116</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d00550dcc3074210572a3e1d05013116"/>
@@ -76,10 +76,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>b698d814c3474210572a3e1d0501316f</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -233,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>3a98d814c3474210572a3e1d0501314f</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>49</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -317,14 +317,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>7298d814c3474210572a3e1d0501314b</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -357,10 +357,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:10:54</sys_created_on>
         <sys_id>38aa14d4c3474210572a3e1d0501313c</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <ui_id>d5b9188c-d5e9-49d5-ba74-acc74617f05b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=38aa14d4c3474210572a3e1d0501313c"/>
@@ -434,10 +434,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>3e98d814c3474210572a3e1d05013199</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <ui_id>46be8931-8cc1-4729-b2f8-d1a1b6136f2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e98d814c3474210572a3e1d05013199"/>
@@ -496,10 +496,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>7e98d814c3474210572a3e1d05013190</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <ui_id>115b5517-3c2c-45f6-a321-06ef31eb98c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7e98d814c3474210572a3e1d05013190"/>
@@ -586,10 +586,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:10:54</sys_created_on>
         <sys_id>b8aa14d4c3474210572a3e1d05013135</sys_id>
-        <sys_mod_count>50</sys_mod_count>
+        <sys_mod_count>58</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <ui_id>d511f5c3-c9cc-496f-ac9e-f52fbe3e758a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8aa14d4c3474210572a3e1d05013135"/>
@@ -662,10 +662,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>f298d814c3474210572a3e1d05013176</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <ui_id>c2766323-c69b-475f-815a-0e5730634f5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f298d814c3474210572a3e1d05013176"/>
@@ -826,10 +826,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>be98d814c3474210572a3e1d0501317b</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <ui_id>180e03ad-797a-45a1-a925-6be9ad6c591b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -959,7 +959,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b16b9418c3474210572a3e1d05013161</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -967,7 +967,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:59</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=b16b9418c3474210572a3e1d05013161"/>
@@ -982,10 +982,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>4e6b9418c3474210572a3e1d050131df</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1139,14 +1139,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:14</sys_created_on>
         <sys_id>b56b9418c3474210572a3e1d05013163</sys_id>
-        <sys_mod_count>21</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1223,14 +1223,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>b56b9418c3474210572a3e1d05013193</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1263,10 +1263,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>316b9418c3474210572a3e1d050131b8</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:58</sys_updated_on>
         <ui_id>c2766323-c69b-475f-815a-0e5730634f5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=316b9418c3474210572a3e1d050131b8"/>
@@ -1417,10 +1417,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>7d6b9418c3474210572a3e1d050131c1</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:59</sys_updated_on>
         <ui_id>115b5517-3c2c-45f6-a321-06ef31eb98c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7d6b9418c3474210572a3e1d050131c1"/>
@@ -1507,10 +1507,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>826b9418c3474210572a3e1d050131de</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:59</sys_updated_on>
         <ui_id>d5b9188c-d5e9-49d5-ba74-acc74617f05b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=826b9418c3474210572a3e1d050131de"/>
@@ -1584,10 +1584,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>c66b9418c3474210572a3e1d050131cd</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:59</sys_updated_on>
         <ui_id>46be8931-8cc1-4729-b2f8-d1a1b6136f2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c66b9418c3474210572a3e1d050131cd"/>
@@ -1646,10 +1646,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>ce6b9418c3474210572a3e1d050131d5</sys_id>
-        <sys_mod_count>22</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:59</sys_updated_on>
         <ui_id>d511f5c3-c9cc-496f-ac9e-f52fbe3e758a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ce6b9418c3474210572a3e1d050131d5"/>
@@ -1732,10 +1732,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>756b9418c3474210572a3e1d050131ab</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:39</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:22:59</sys_updated_on>
         <ui_id>180e03ad-797a-45a1-a925-6be9ad6c591b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1850,11 +1850,11 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de6bd418c3474210572a3e1d0501314d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 07:15:40</sys_updated_on>
+        <sys_updated_on>2024-07-25 07:23:00</sys_updated_on>
         <trigger display_value="">d66bd418c3474210572a3e1d0501314d</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d00550dcc3074210572a3e1d05013116"/>
