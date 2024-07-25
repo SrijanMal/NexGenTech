@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section">
+    <sys_sg_applet_launcher_m2m_section action="DELETE">
+        <applet_launcher display_value="Device Request">4009d01e5367ca1005707ab0a0490e70</applet_launcher>
+        <order>20</order>
+        <section display_value="Device Details">743d8c7a53e38e1005707ab0a0490ef0</section>
+        <sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:08:24</sys_created_on>
+        <sys_id>703d08ba53e38e1005707ab0a0490e16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_703d08ba53e38e1005707ab0a0490e16</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:08:24</sys_updated_on>
+    </sys_sg_applet_launcher_m2m_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NexGenTech">e8d1735547e40210853097bf016d4394</application>
+        <file_path/>
+        <instance_id>4ffbec40db4ab514199b1729139619aa</instance_id>
+        <instance_name>dev188595</instance_name>
+        <name>sys_sg_applet_launcher_m2m_section_703d08ba53e38e1005707ab0a0490e16</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_m2m_section"><sys_sg_applet_launcher_m2m_section action="INSERT_OR_UPDATE"><applet_launcher display_value="Device Request">4009d01e5367ca1005707ab0a0490e70</applet_launcher><order>20</order><section display_value="Device Details">743d8c7a53e38e1005707ab0a0490ef0</section><sys_class_name>sys_sg_applet_launcher_m2m_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-07-25 18:08:24</sys_created_on><sys_id>703d08ba53e38e1005707ab0a0490e16</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package><sys_policy/><sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope><sys_update_name>sys_sg_applet_launcher_m2m_section_703d08ba53e38e1005707ab0a0490e16</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-07-25 18:08:24</sys_updated_on></sys_sg_applet_launcher_m2m_section></record_update>]]></payload>
+        <payload_hash>1345020018</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>0bef7f2653a38e1005707ab0a0490efa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:08:24</sys_created_on>
+        <sys_id>783d08ba53e38e1005707ab0a0490e18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>190eb1474440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:08:24</sys_updated_on>
+        <type>Launcher section mapping</type>
+        <update_guid>3c3d08ba39e38e1020ab8be54ad1f117</update_guid>
+        <update_guid_history>3c3d08ba39e38e1020ab8be54ad1f117:1345020018</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-25 18:09:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_applet_launcher_m2m_section">sys_sg_applet_launcher_m2m_section</sys_db_object>
+        <sys_id>0bbdd679941e45c7833b5c2d8bdb42a1</sys_id>
+        <sys_metadata>703d08ba53e38e1005707ab0a0490e16</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_scope_delete display_value="">4ce85ab8e97444128be26bc92bfef481</sys_scope_delete>
+        <sys_update_name>sys_sg_applet_launcher_m2m_section_703d08ba53e38e1005707ab0a0490e16</sys_update_name>
+        <sys_update_version display_value="sys_sg_applet_launcher_m2m_section_703d08ba53e38e1005707ab0a0490e16">783d08ba53e38e1005707ab0a0490e18</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-25 18:09:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
