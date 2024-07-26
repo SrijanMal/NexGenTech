@@ -7,20 +7,20 @@
         <inputs/>
         <mugshots_cache_json/>
         <notes/>
-        <order>4</order>
+        <order>5</order>
         <step_config display_value="Set Catalog Item Quantity">d5d9e7e7c3d7220076173b0ac3d3ae0b</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-07-17 06:21:12</sys_created_on>
         <sys_id>1e9e1c40932b8610be6d385efaba1059</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Set Catalog Item Quantity</sys_name>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sys_atf_step_1e9e1c40932b8610be6d385efaba1059</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-17 06:29:58</sys_updated_on>
+        <sys_updated_on>2024-07-26 06:10:40</sys_updated_on>
         <table/>
         <test display_value="Order AI Device using ATF">d28d1ccc93e78610be6d385efaba1029</test>
         <timeout/>
