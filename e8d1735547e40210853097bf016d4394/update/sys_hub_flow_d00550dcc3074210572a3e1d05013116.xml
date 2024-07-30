@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2860872000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2880598000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority/>
         <generation_source/>
         <internal_name>order_ai_devices_flow</internal_name>
-        <label_cache>[{"name":"{{static.3415712a53674e1005707ab0a0490e1d}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.d625dccec0a8016700a222a0f7900d06}}","label":"Service Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.679434f053231300e321ddeeff7b12d8}}","label":"Help Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"d5b9188c-d5e9-49d5-ba74-acc74617f05b":["u_total_cost"],"d511f5c3-c9cc-496f-ac9e-f52fbe3e758a":["price"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device.name","label":"3 - Get Catalog Variables➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1040499_nexgente_ai_devices","column_name":"name"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_1040499_nexgente_ai_devices","reference_display":"AI Devices","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name","label":"3 - Get Catalog Variables➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"c2766323-c69b-475f-815a-0e5730634f5d.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.fa4957aec33a4210572a3e1d0501310f}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address","label":"3 - Get Catalog Variables➛delivery_address","reference":"","reference_display":"delivery_address","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
+        <label_cache>[{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address","label":"3 - Get Catalog Variables➛delivery_address","reference":"","reference_display":"delivery_address","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.fa4957aec33a4210572a3e1d0501310f}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"c2766323-c69b-475f-815a-0e5730634f5d.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name","label":"3 - Get Catalog Variables➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_1040499_nexgente_ai_devices","reference_display":"AI Devices","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device.name","label":"3 - Get Catalog Variables➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1040499_nexgente_ai_devices","column_name":"name"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"d5b9188c-d5e9-49d5-ba74-acc74617f05b":["u_total_cost"],"d511f5c3-c9cc-496f-ac9e-f52fbe3e758a":["price"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery"},{"name":"{{static.679434f053231300e321ddeeff7b12d8}}","label":"Help Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.d625dccec0a8016700a222a0f7900d06}}","label":"Service Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.3415712a53674e1005707ab0a0490e1d}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}}]</label_cache>
         <master_snapshot>b16b9418c3474210572a3e1d05013161</master_snapshot>
         <name>Order AI Devices Flow</name>
         <natlang/>
@@ -35,7 +35,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d00550dcc3074210572a3e1d05013116</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Order AI Devices Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sys_hub_flow_d00550dcc3074210572a3e1d05013116</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=d00550dcc3074210572a3e1d05013116"/>
@@ -76,10 +76,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>b698d814c3474210572a3e1d0501316f</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -233,14 +233,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>3a98d814c3474210572a3e1d0501314f</sys_id>
-        <sys_mod_count>55</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -317,14 +317,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>7298d814c3474210572a3e1d0501314b</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -357,10 +357,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:10:54</sys_created_on>
         <sys_id>38aa14d4c3474210572a3e1d0501313c</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:29:54</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <ui_id>d5b9188c-d5e9-49d5-ba74-acc74617f05b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=38aa14d4c3474210572a3e1d0501313c"/>
@@ -397,11 +397,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:10:54</sys_created_on>
         <sys_id>30aa14d4c3474210572a3e1d0501313e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-23 04:52:49</sys_updated_on>
+        <sys_updated_on>2024-07-26 06:38:06</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>u_device_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device}}^u_requestor_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name}}^company={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company}}^u_quantity={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity}}^u_state=in-progress^u_total_cost={{115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount}}^approval=approved^assignment_group={"display":"Dispatch Management","value":"395a9baec33a4210572a3e1d050131e0","sys_id":"395a9baec33a4210572a3e1d050131e0"}^u_delivery_date={{Service Catalog_1.request_item.estimated_delivery}}^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification}}</value>
+        <value>u_device_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device}}^u_requestor_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name}}^company={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company}}^u_quantity={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity}}^u_state=delivered^u_total_cost={{115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount}}^approval=approved^assignment_group={"display":"Dispatch Management","value":"395a9baec33a4210572a3e1d050131e0","sys_id":"395a9baec33a4210572a3e1d050131e0"}^u_delivery_date={{Service Catalog_1.request_item.estimated_delivery}}^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=38aa14d4c3474210572a3e1d0501313c^sys_idNOT INe75b1418c3474210572a3e1d050131d2"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -434,13 +434,41 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>3e98d814c3474210572a3e1d05013199</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:29:54</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <ui_id>46be8931-8cc1-4729-b2f8-d1a1b6136f2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3e98d814c3474210572a3e1d05013199"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e98d814c3474210572a3e1d05013199</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:06</sys_created_on>
+        <sys_id>32c872be53a3ce1005707ab0a0490ebe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:06</sys_updated_on>
+        <value>bf912cc7c3720210572a3e1d05013178</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e98d814c3474210572a3e1d05013199</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:06</sys_created_on>
+        <sys_id>3ac872be53a3ce1005707ab0a0490ebd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:06</sys_updated_on>
+        <value>9b322c0bc3720210572a3e1d05013111:item_option_new,a392e04bc3720210572a3e1d0501315a:item_option_new,9913e84bc3720210572a3e1d050131d6:item_option_new,2fb77e1653270e1005707ab0a0490e6b:item_option_new,5843ec4bc3720210572a3e1d05013195:item_option_new,adf92d5bc3320210572a3e1d0501315e:item_option_new,2563a08bc3720210572a3e1d0501319a:item_option_new,58a3e48bc3720210572a3e1d0501314c:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=3e98d814c3474210572a3e1d05013199"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_fields</field>
@@ -448,11 +476,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>be98d814c3474210572a3e1d0501319b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:15</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:54:24</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value>assignment_group={"display":"Dispatch Management","value":"e475712a53674e1005707ab0a0490ea5","sys_id":"e475712a53674e1005707ab0a0490ea5"}^comments=Hey {{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name}}, we have received your order and we are working on it for the dispatch^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address}}^assigned_to={"display":"System Administrator","value":"76dee9c493ef8610be6d385efaba1079","table":"sys_user","sys_id":"76dee9c493ef8610be6d385efaba1079"}</value>
+        <value>assignment_group={"display":"Dispatch Management","value":"e475712a53674e1005707ab0a0490ea5","sys_id":"e475712a53674e1005707ab0a0490ea5"}^comments=Hey {{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name}}, we have received your order and we are working on it for the dispatch^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_requested_item</field>
@@ -478,6 +506,30 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value>Dispatch request for {{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device.name}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>3e98d814c3474210572a3e1d05013199</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:06</sys_created_on>
+        <sys_id>b6c872be53a3ce1005707ab0a0490ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>3e98d814c3474210572a3e1d05013199</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:06</sys_created_on>
+        <sys_id>7ec872be53a3ce1005707ab0a0490ebc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:06</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=3e98d814c3474210572a3e1d05013199"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e98d814c3474210572a3e1d05013199"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -496,10 +548,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>7e98d814c3474210572a3e1d05013190</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:29:54</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <ui_id>115b5517-3c2c-45f6-a321-06ef31eb98c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7e98d814c3474210572a3e1d05013190"/>
@@ -586,10 +638,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:10:54</sys_created_on>
         <sys_id>b8aa14d4c3474210572a3e1d05013135</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:29:54</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <ui_id>d511f5c3-c9cc-496f-ac9e-f52fbe3e758a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8aa14d4c3474210572a3e1d05013135"/>
@@ -662,10 +714,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:01</sys_created_on>
         <sys_id>f298d814c3474210572a3e1d05013176</sys_id>
-        <sys_mod_count>70</sys_mod_count>
+        <sys_mod_count>84</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:29:54</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <ui_id>c2766323-c69b-475f-815a-0e5730634f5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f298d814c3474210572a3e1d05013176"/>
@@ -826,10 +878,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:02:02</sys_created_on>
         <sys_id>be98d814c3474210572a3e1d0501317b</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <ui_id>180e03ad-797a-45a1-a925-6be9ad6c591b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -942,7 +994,7 @@
         <description>Order AI Devices Flow</description>
         <flow_priority/>
         <internal_name>order_ai_devices_flow</internal_name>
-        <label_cache>[{"name":"{{static.3415712a53674e1005707ab0a0490e1d}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.d625dccec0a8016700a222a0f7900d06}}","label":"Service Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.679434f053231300e321ddeeff7b12d8}}","label":"Help Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"d5b9188c-d5e9-49d5-ba74-acc74617f05b":["u_total_cost"],"d511f5c3-c9cc-496f-ac9e-f52fbe3e758a":["price"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device.name","label":"3 - Get Catalog Variables➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1040499_nexgente_ai_devices","column_name":"name"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_1040499_nexgente_ai_devices","reference_display":"AI Devices","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name","label":"3 - Get Catalog Variables➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"c2766323-c69b-475f-815a-0e5730634f5d.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.fa4957aec33a4210572a3e1d0501310f}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address","label":"3 - Get Catalog Variables➛delivery_address","reference":"","reference_display":"delivery_address","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}}]</label_cache>
+        <label_cache>[{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity","label":"3 - Get Catalog Variables➛choose_quantity","reference":"","reference_display":"choose_quantity","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company","label":"3 - Get Catalog Variables➛requestor_company","reference":"core_company","reference_display":"Company","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name","label":"3 - Get Catalog Variables➛requestor_name","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address","label":"3 - Get Catalog Variables➛delivery_address","reference":"","reference_display":"delivery_address","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.fa4957aec33a4210572a3e1d0501310f}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"c2766323-c69b-475f-815a-0e5730634f5d.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name","label":"3 - Get Catalog Variables➛requestor_name➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device","label":"3 - Get Catalog Variables➛choose_your_ai_device","reference":"x_1040499_nexgente_ai_devices","reference_display":"AI Devices","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device.name","label":"3 - Get Catalog Variables➛choose_your_ai_device➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"x_1040499_nexgente_ai_devices","column_name":"name"},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount","label":"3 - Get Catalog Variables➛total_amount","reference":"","reference_display":"total_amount","type":"string","base_type":"string","usedInstances":{"d5b9188c-d5e9-49d5-ba74-acc74617f05b":["u_total_cost"],"d511f5c3-c9cc-496f-ac9e-f52fbe3e758a":["price"]},"attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification","label":"3 - Get Catalog Variables➛business_justification","reference":"","reference_display":"business_justification","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"Service Catalog_1.request_item.estimated_delivery","label":"Trigger - Service Catalog➛Requested Item Record➛Estimated delivery","reference":"","reference_display":"Estimated delivery","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"sc_req_item","column_name":"estimated_delivery"},{"name":"{{static.679434f053231300e321ddeeff7b12d8}}","label":"Help Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.d625dccec0a8016700a222a0f7900d06}}","label":"Service Desk","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}},{"name":"{{static.3415712a53674e1005707ab0a0490e1d}}","label":"Release Management","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"c2766323-c69b-475f-815a-0e5730634f5d":["approval_conditions"]}}]</label_cache>
         <master>true</master>
         <name>Order AI Devices Flow</name>
         <natlang/>
@@ -959,7 +1011,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b16b9418c3474210572a3e1d05013161</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -967,7 +1019,7 @@
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:19</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=b16b9418c3474210572a3e1d05013161"/>
@@ -982,10 +1034,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>4e6b9418c3474210572a3e1d050131df</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:20</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1139,14 +1191,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:14</sys_created_on>
         <sys_id>b56b9418c3474210572a3e1d05013163</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1223,14 +1275,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>b56b9418c3474210572a3e1d05013193</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1263,10 +1315,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>316b9418c3474210572a3e1d050131b8</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <ui_id>c2766323-c69b-475f-815a-0e5730634f5d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=316b9418c3474210572a3e1d050131b8"/>
@@ -1417,10 +1469,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>7d6b9418c3474210572a3e1d050131c1</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <ui_id>115b5517-3c2c-45f6-a321-06ef31eb98c4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7d6b9418c3474210572a3e1d050131c1"/>
@@ -1507,10 +1559,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>826b9418c3474210572a3e1d050131de</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <ui_id>d5b9188c-d5e9-49d5-ba74-acc74617f05b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=826b9418c3474210572a3e1d050131de"/>
@@ -1547,11 +1599,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>c66b9418c3474210572a3e1d050131df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-25 06:46:49</sys_updated_on>
+        <sys_updated_on>2024-07-26 06:38:15</sys_updated_on>
         <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>u_device_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device}}^u_requestor_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name}}^company={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company}}^u_quantity={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity}}^u_state=in-progress^u_total_cost={{115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount}}^approval=approved^assignment_group={"display":"Dispatch Management","value":"395a9baec33a4210572a3e1d050131e0","sys_id":"395a9baec33a4210572a3e1d050131e0"}^u_delivery_date={{Service Catalog_1.request_item.estimated_delivery}}^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification}}</value>
+        <value>u_device_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device}}^u_requestor_name={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name}}^company={{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_company}}^u_quantity={{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_quantity}}^u_state=delivered^u_total_cost={{115b5517-3c2c-45f6-a321-06ef31eb98c4.total_amount}}^approval=approved^assignment_group={"display":"Dispatch Management","value":"395a9baec33a4210572a3e1d050131e0","sys_id":"395a9baec33a4210572a3e1d050131e0"}^u_delivery_date={{Service Catalog_1.request_item.estimated_delivery}}^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.business_justification}}</value>
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=826b9418c3474210572a3e1d050131de^sys_idNOT IN026b9418c3474210572a3e1d050131df"/>
     <sys_hub_input_scripts action="INSERT_OR_UPDATE">
@@ -1584,13 +1636,41 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>c66b9418c3474210572a3e1d050131cd</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <ui_id>46be8931-8cc1-4729-b2f8-d1a1b6136f2c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c66b9418c3474210572a3e1d050131cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c66b9418c3474210572a3e1d050131cd</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:15</sys_created_on>
+        <sys_id>34d8f2be53a3ce1005707ab0a0490ec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:15</sys_updated_on>
+        <value>9b322c0bc3720210572a3e1d05013111:item_option_new,a392e04bc3720210572a3e1d0501315a:item_option_new,9913e84bc3720210572a3e1d050131d6:item_option_new,2fb77e1653270e1005707ab0a0490e6b:item_option_new,5843ec4bc3720210572a3e1d05013195:item_option_new,adf92d5bc3320210572a3e1d0501315e:item_option_new,2563a08bc3720210572a3e1d0501319a:item_option_new,58a3e48bc3720210572a3e1d0501314c:item_option_new</value>
+        <variable display_value="Catalog Variables">7b51fd0e73141300612c273ffff6a7be</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c66b9418c3474210572a3e1d050131cd</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:15</sys_created_on>
+        <sys_id>f4d8f2be53a3ce1005707ab0a0490ec7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:15</sys_updated_on>
+        <value>bf912cc7c3720210572a3e1d05013178</value>
+        <variable display_value="Template Catalog Item">f751fd0e73141300612c273ffff6a7b8</variable>
+    </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c66b9418c3474210572a3e1d050131cd"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_fields</field>
@@ -1598,11 +1678,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>c66b9418c3474210572a3e1d050131cf</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:32</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
-        <value>assignment_group={"display":"Dispatch Management","value":"e475712a53674e1005707ab0a0490ea5","sys_id":"e475712a53674e1005707ab0a0490ea5"}^comments=Hey {{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name}}, we have received your order and we are working on it for the dispatch^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address}}^assigned_to={"display":"System Administrator","value":"76dee9c493ef8610be6d385efaba1079","table":"sys_user","sys_id":"76dee9c493ef8610be6d385efaba1079"}</value>
+        <value>assignment_group={"display":"Dispatch Management","value":"e475712a53674e1005707ab0a0490ea5","sys_id":"e475712a53674e1005707ab0a0490ea5"}^comments=Hey {{115b5517-3c2c-45f6-a321-06ef31eb98c4.requestor_name.first_name}}, we have received your order and we are working on it for the dispatch^description={{115b5517-3c2c-45f6-a321-06ef31eb98c4.delivery_address}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_requested_item</field>
@@ -1628,6 +1708,30 @@
         <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
         <value>Dispatch request for {{115b5517-3c2c-45f6-a321-06ef31eb98c4.choose_your_ai_device.name}}</value>
     </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>c66b9418c3474210572a3e1d050131cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:15</sys_created_on>
+        <sys_id>3cd8f2be53a3ce1005707ab0a0490ec6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>c66b9418c3474210572a3e1d050131cd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-07-26 06:38:15</sys_created_on>
+        <sys_id>fcd8f2be53a3ce1005707ab0a0490ec6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-07-26 06:38:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_af51fd0e73141300612c273ffff6a785</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=c66b9418c3474210572a3e1d050131cd"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=c66b9418c3474210572a3e1d050131cd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1646,10 +1750,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>ce6b9418c3474210572a3e1d050131d5</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <ui_id>d511f5c3-c9cc-496f-ac9e-f52fbe3e758a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=ce6b9418c3474210572a3e1d050131d5"/>
@@ -1732,10 +1836,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:15</sys_created_on>
         <sys_id>756b9418c3474210572a3e1d050131ab</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:33</sys_updated_on>
+        <sys_updated_on>2024-07-26 11:56:18</sys_updated_on>
         <ui_id>180e03ad-797a-45a1-a925-6be9ad6c591b</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1844,17 +1948,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"de6bd418c3474210572a3e1d0501314d","name":"plan","plan_signature":null}}</plan>
         <plan_id>d00550dcc3074210572a3e1d05013116</plan_id>
-        <snapshot>66e63eba53a3ce1005707ab0a0490eb5</snapshot>
+        <snapshot>b16b9418c3474210572a3e1d05013161</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-23 04:14:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>de6bd418c3474210572a3e1d0501314d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-07-26 06:27:34</sys_updated_on>
+        <sys_updated_on>2024-07-26 06:38:16</sys_updated_on>
         <trigger display_value="">d66bd418c3474210572a3e1d0501314d</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d00550dcc3074210572a3e1d05013116"/>
