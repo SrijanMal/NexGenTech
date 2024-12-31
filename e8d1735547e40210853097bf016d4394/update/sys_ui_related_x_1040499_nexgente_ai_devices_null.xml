@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1040499_nexgente_ai_devices" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="AI Devices - Default view" name="x_1040499_nexgente_ai_devices" related_list="NULL" sys_domain="global" view="Default view">95570ced53f21a5005707ab0a0490ee6</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:49f2ce4e73001010a64ec3ed8ff6a7de</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2024-12-30 09:54:25</sys_created_on>
+            <sys_id>51570ced53f21a5005707ab0a0490ee7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2024-12-30 09:54:25</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>AI Devices - Default view</calculated_name>
+            <filter/>
+            <name>x_1040499_nexgente_ai_devices</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2024-12-30 09:54:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>95570ced53f21a5005707ab0a0490ee6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>AI Devices - Default view</sys_name>
+            <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+            <sys_update_name>sys_ui_related_x_1040499_nexgente_ai_devices_null</sys_update_name>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2024-12-30 09:54:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>
