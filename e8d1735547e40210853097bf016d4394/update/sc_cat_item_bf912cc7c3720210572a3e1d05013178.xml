@@ -4,7 +4,7 @@
         <active>true</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
-        <category display_value="Hardware">d258b953c611227a0146101fb1be7c31</category>
+        <category display_value="NextGenTech AI Devices">348c7bae53638e1005707ab0a0490eda</category>
         <checked_out>false</checked_out>
         <cost>0</cost>
         <custom_cart/>
@@ -38,7 +38,7 @@
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>false</no_quantity>
-        <no_quantity_v2>false</no_quantity_v2>
+        <no_quantity_v2>true</no_quantity_v2>
         <no_save_as_draft>true</no_save_as_draft>
         <no_search>false</no_search>
         <no_wishlist_v2>true</no_wishlist_v2>
@@ -54,7 +54,7 @@
         <recurring_price>0</recurring_price>
         <request_method/>
         <roles>snc_internal</roles>
-        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_catalogs>0f910a2ac3112200b12d9f2974d3ae3c,65bcd377c3011200b12d9f2974d3aea0,716b795f0b0f33004829a5dc83673a8c,e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
@@ -66,21 +66,21 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-19 07:30:36</sys_created_on>
         <sys_id>bf912cc7c3720210572a3e1d05013178</sys_id>
-        <sys_mod_count>60</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>Order AI Devices</sys_name>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>sc_cat_item_bf912cc7c3720210572a3e1d05013178</sys_update_name>
         <sys_updated_by>Srijan.Mal</sys_updated_by>
-        <sys_updated_on>2025-01-16 09:30:57</sys_updated_on>
+        <sys_updated_on>2025-01-27 07:05:47</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>58</version>
+        <version>60</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>

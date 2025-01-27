@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Order AI Devices">bf912cc7c3720210572a3e1d05013178</sc_cat_item>
+        <sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Srijan.Mal</sys_created_by>
+        <sys_created_on>2025-01-27 07:05:22</sys_created_on>
+        <sys_id>062de3125353561005707ab0a0490e4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Order AI Devices</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_062de3125353561005707ab0a0490e4b</sys_update_name>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:05:22</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NexGenTech">e8d1735547e40210853097bf016d4394</application>
+        <file_path/>
+        <instance_id>4ffbec40db4ab514199b1729139619aa</instance_id>
+        <instance_name>dev188595</instance_name>
+        <name>sc_cat_item_catalog_062de3125353561005707ab0a0490e4b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Order AI Devices">bf912cc7c3720210572a3e1d05013178</sc_cat_item><sc_catalog display_value="Customer Service">65bcd377c3011200b12d9f2974d3aea0</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>Srijan.Mal</sys_created_by><sys_created_on>2025-01-27 07:05:22</sys_created_on><sys_id>062de3125353561005707ab0a0490e4b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Service.Order AI Devices</sys_name><sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package><sys_policy/><sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope><sys_update_name>sc_cat_item_catalog_062de3125353561005707ab0a0490e4b</sys_update_name><sys_updated_by>Srijan.Mal</sys_updated_by><sys_updated_on>2025-01-27 07:05:22</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>82332399</payload_hash>
+        <record_name>Customer Service.Order AI Devices</record_name>
+        <reverted_from/>
+        <source>3fcba37a530c521005707ab0a0490ebb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Srijan.Mal</sys_created_by>
+        <sys_created_on>2025-01-27 07:05:22</sys_created_on>
+        <sys_id>0a2de3125353561005707ab0a0490e4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a69446450000001</sys_recorded_at>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:05:22</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>4a2de312345356106df8cc0cb03fcf4d</update_guid>
+        <update_guid_history>4a2de312345356106df8cc0cb03fcf4d:82332399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Customer Service.Order AI Devices">d04d67125353561005707ab0a0490ebe</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Srijan.Mal</sys_created_by>
+        <sys_created_on>2025-01-27 07:05:48</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>6ed6986e338d44659aeb6bd9a9db7b31</sys_id>
+        <sys_metadata>062de3125353561005707ab0a0490e4b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Service.Order AI Devices</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_parent display_value="Order AI Devices">bf912cc7c3720210572a3e1d05013178</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_scope_delete display_value="">4ce85ab8e97444128be26bc92bfef481</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_062de3125353561005707ab0a0490e4b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_062de3125353561005707ab0a0490e4b">0a2de3125353561005707ab0a0490e4e</sys_update_version>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:05:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
