@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Order AI Devices">bf912cc7c3720210572a3e1d05013178</sc_cat_item>
+        <sc_catalog display_value="Employee Wellness">716b795f0b0f33004829a5dc83673a8c</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>Srijan.Mal</sys_created_by>
+        <sys_created_on>2025-01-27 07:05:56</sys_created_on>
+        <sys_id>5a4da7125353561005707ab0a0490eb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Wellness.Order AI Devices</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5a4da7125353561005707ab0a0490eb1</sys_update_name>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:05:56</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NexGenTech">e8d1735547e40210853097bf016d4394</application>
+        <file_path/>
+        <instance_id>4ffbec40db4ab514199b1729139619aa</instance_id>
+        <instance_name>dev188595</instance_name>
+        <name>sc_cat_item_catalog_5a4da7125353561005707ab0a0490eb1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="DELETE"><sc_cat_item display_value="Order AI Devices">bf912cc7c3720210572a3e1d05013178</sc_cat_item><sc_catalog display_value="Employee Wellness">716b795f0b0f33004829a5dc83673a8c</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>Srijan.Mal</sys_created_by><sys_created_on>2025-01-27 07:05:56</sys_created_on><sys_id>5a4da7125353561005707ab0a0490eb1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee Wellness.Order AI Devices</sys_name><sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package><sys_policy/><sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope><sys_update_name>sc_cat_item_catalog_5a4da7125353561005707ab0a0490eb1</sys_update_name><sys_updated_by>Srijan.Mal</sys_updated_by><sys_updated_on>2025-01-27 07:05:56</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1642999776</payload_hash>
+        <record_name>Employee Wellness.Order AI Devices</record_name>
+        <reverted_from/>
+        <source>d3de67d25353561005707ab0a0490eef</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>Srijan.Mal</sys_created_by>
+        <sys_created_on>2025-01-27 07:12:51</sys_created_on>
+        <sys_id>e7dea7d25353561005707ab0a0490e5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194a69b1fa70000001</sys_recorded_at>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:12:51</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>abdea7d2d35356100f0a1d4ec92c1c5c</update_guid>
+        <update_guid_history>abdea7d2d35356100f0a1d4ec92c1c5c:-1642999776,9e4da712a45356108249c67f5dcda1b3:1985714988</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Employee Wellness.Order AI Devices">efdea7d25353561005707ab0a0490e5e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Srijan.Mal</sys_created_by>
+        <sys_created_on>2025-01-27 07:12:51</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0022d1cc177e468c9cbe6a32b5f88510</sys_id>
+        <sys_metadata>5a4da7125353561005707ab0a0490eb1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Wellness.Order AI Devices</sys_name>
+        <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
+        <sys_parent display_value="Order AI Devices">bf912cc7c3720210572a3e1d05013178</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
+        <sys_scope_delete display_value="">4ce85ab8e97444128be26bc92bfef481</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5a4da7125353561005707ab0a0490eb1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5a4da7125353561005707ab0a0490eb1">e7dea7d25353561005707ab0a0490e5d</sys_update_version>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:12:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

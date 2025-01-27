@@ -7,6 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
+        <conversational_label/>
         <create_roles/>
         <default_html_value/>
         <default_value/>
@@ -42,7 +43,8 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>choose_quantity</name>
-        <order>400</order>
+        <not_available_conversation>false</not_available_conversation>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -77,16 +79,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-06-19 07:36:42</sys_created_on>
         <sys_id>5843ec4bc3720210572a3e1d05013195</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Choose Quantity</sys_name>
         <sys_package display_value="NexGenTech" source="x_1040499_nexgente">e8d1735547e40210853097bf016d4394</sys_package>
         <sys_policy/>
         <sys_scope display_value="NexGenTech">e8d1735547e40210853097bf016d4394</sys_scope>
         <sys_update_name>item_option_new_5843ec4bc3720210572a3e1d05013195</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-06-19 07:46:46</sys_updated_on>
+        <sys_updated_by>Srijan.Mal</sys_updated_by>
+        <sys_updated_on>2025-01-27 07:12:51</sys_updated_on>
         <table/>
         <tooltip/>
+        <topic_block/>
         <type>6</type>
         <ui_page/>
         <unique>false</unique>
