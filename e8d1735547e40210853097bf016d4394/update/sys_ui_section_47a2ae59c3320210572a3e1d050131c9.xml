@@ -3,112 +3,126 @@
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>
             <position>0</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>fc34ee1dc3320210572a3e1d05013187</sys_id>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>bbb1f4675390629005707ab0a0490efa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>manufacturer</element>
             <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>7034ee1dc3320210572a3e1d05013188</sys_id>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>77b1f4675390629005707ab0a0490efb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_device_category</element>
             <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>f034ee1dc3320210572a3e1d05013188</sys_id>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>fbb1f4675390629005707ab0a0490efb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
             <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>7434ee1dc3320210572a3e1d05013188</sys_id>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>73b1f4675390629005707ab0a0490efc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>model_number</element>
             <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>f434ee1dc3320210572a3e1d05013188</sys_id>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>f7b1f4675390629005707ab0a0490efc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>owned_by</element>
             <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>7834ee1dc3320210572a3e1d05013188</sys_id>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>7fb1f4675390629005707ab0a0490efc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>operational_status</element>
+            <position>6</position>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>f3b1f4675390629005707ab0a0490efd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>f834ee1dc3320210572a3e1d05013188</sys_id>
+            <position>7</position>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>7bb1f4675390629005707ab0a0490efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-06-14 06:30:08</sys_created_on>
-            <sys_id>7c34ee1dc3320210572a3e1d05013188</sys_id>
+            <position>8</position>
+            <sys_created_by>Srijan.Mal</sys_created_by>
+            <sys_created_on>2025-03-21 07:41:46</sys_created_on>
+            <sys_id>ffb1f4675390629005707ab0a0490efd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1040499_nexgente_ai_devices" sys_domain="global" view="Default view">47a2ae59c3320210572a3e1d050131c9</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-06-14 06:30:08</sys_updated_on>
+            <sys_updated_by>Srijan.Mal</sys_updated_by>
+            <sys_updated_on>2025-03-21 07:41:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
